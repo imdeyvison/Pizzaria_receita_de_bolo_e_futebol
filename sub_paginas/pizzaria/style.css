@@ -1,0 +1,145 @@
+header{
+    background-color: #cc1313; /* Muda a cor do fundo da header */
+    color: antiquewhite; /* Muda a cor do texto da header */
+    text-align: center;  /* Muda o alinhamento do texto da header */
+    font-size: 6rem; /* Muda o tamanho do texto da header */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Ajusta o espaçamento horizontal entre as palavras*/
+    height: 88px; /* Ajusta o espaçamento vertical das palavras com o header*/
+    justify-content: center;
+    background-color: #cc1313;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 17px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+a:hover {
+    background-color: white;
+    color: #cc1313; /* A cor do fundo da header, pra contrastar */
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+h1{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+h2, ul, ol{
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align:justify;
+}
+
+p{
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+
+td, th {
+    padding: 1%;
+    border: 3px solid #000000;
+    text-align: center;
+  }
+  
+  th{
+    /*background-color: #EEE;*/
+  }
+  td{
+    font-weight:bold;
+    /*background-color: #EEE;*/
+  }
+  
+  table{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
+
+  h2 + ul a {
+    color: black;
+  }
+
+  body{
+    background-image: url(fundo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+  .botao-whatsapp {
+    display: inline-block;
+    background-color: #25D366; /* Cor oficial do WhatsApp */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-whatsapp i {
+    margin-right: 8px;
+  }
+  
+  .botao-whatsapp:hover {
+    background-color: #1ebe5d;
+  }
+  
+  .botao-instagram {
+    display: inline-block;
+    background-color: #ec167a; /* Cor oficial do WhatsApp */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-instagram i {
+    margin-right: 8px;
+  }
+  
+  .botao-instagram:hover {
+    background-color: #1ebe5d;
+  }
+  
+

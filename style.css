@@ -1,0 +1,57 @@
+header{
+    background-color: #cc1313; /* Muda a cor do fundo da header */
+    color: antiquewhite; /* Muda a cor do texto da header */
+    text-align: center;  /* Muda o alinhamento do texto da header */
+    font-size: 6rem; /* Muda o tamanho do texto da header */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Ajusta o espaçamento horizontal entre as palavras*/
+    height: 88px; /* Ajusta o espaçamento vertical das palavras com o header*/
+    justify-content: center;
+    background-color: #cc1313;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-image: url(fundo.png);
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+
+a {
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 17px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+a:hover {
+    background-color: white;
+    color: #cc1313; /* A cor do fundo da header, pra contrastar */
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
